@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --breakpoint-xs: 450px;
+  --breakpoint-2xs: 370px;
+}
+
+@layer base {
+  html {
+    font-size: 16px;
+  }
+}
+
+@font-face {
+  font-family: "Norsal";
+  src: url("./assets/fonts/alfont_com_NorsalGX.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "Norsal", system-ui, sans-serif;
+}
+
+:root {
+  --color-bg: rgba(26, 26, 26, 1);
+  --color-primary: rgba(217, 252, 35, 1);
+}
